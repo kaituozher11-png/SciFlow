@@ -1,0 +1,21 @@
+# 环境变量（千万别传上去，里面有你的 API Key！）
+.env
+
+# 本地数据库
+*.db
+*.sqlite3
+memory_db/
+pgdata/
+
+# 生成的论文工作区（体积太大，且是运行产物）
+workspace/
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
